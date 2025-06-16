@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title','About us | Hello city')
+@section('title',"Hello city | ".config('app.name'))
 
 @section('content')
     <h1>Build with ❤️ by Engama</h1>
