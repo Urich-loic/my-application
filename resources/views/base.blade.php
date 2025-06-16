@@ -8,6 +8,10 @@
 </head>
 <body>
     @yield('content')
-    <footer>&copy; Copyright {{date('Y')}}  &middot; <a href="{{route('about')}}" >About</a></footer>
+    <footer>&copy; Copyright {{date('Y')}}  &middot;
+        @if(!Route::is('about'))
+        <a href="{{route('about')}}" >About</a>
+        @endif
+    </footer>
 </body>
 </html>
