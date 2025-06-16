@@ -4,5 +4,5 @@
 
 @section('content')
     <h1>Build with ❤️ by Engama</h1>
-    <p>Revenir a la <a href="/">home page</a></p>
+    <p>Revenir a la <a href="{{route('home')}}">home page</a></p>
 @endsection;
