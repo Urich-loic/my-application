@@ -1,6 +1,4 @@
-@extends('base')
-
-@section('title', config('app.name'))
+@extends('layout.base')
 
 @section('content')
 <img src="{{asset('images/flag.jpeg')}}" alt="">

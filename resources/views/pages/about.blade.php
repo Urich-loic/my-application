@@ -1,4 +1,4 @@
-@extends('base')
+@extends('layout.base',['title'=>'About us '])
 
 @section('title',"Hello city | ".config('app.name'))
 
